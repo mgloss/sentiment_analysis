@@ -3,10 +3,13 @@ Digital academy project, Prague, March 2017, Czechitas
 
 Welcome, this project analyze sentiment of Facebook comments of mobile operators.
 
-In directory Czechitas you can find input - Facebook comment of mobile operators, "clean" in the name is the same file after cleaning in R, made by R script - "cisteni_dat_r.R"
+"FBData.xlsx" is the list of comment with already labeled sentiment.
+"cz_stop_words.txt" is the list of czech stop words. There are words that have no influence to sentiment.
+
+In directory Czechitas you can find input - Facebook comment of mobile operators, with "clean" in the name is the same file after cleaning in R, made by R script - "cisteni_dat_r.R"
 
 Python script "fb_sentiment_classifier.py" was created by my mentor - Pablo Maldonado.
-I alternated it did the analysis in jupyter notebook script "sentiment_analysis.ipynb" -> output is "sentiment.csv"
+I alternated it and made the analysis in jupyter notebook script "sentiment_analysis.ipynb" -> output is "sentiment.csv"
 "sentiment_geneea.csv" is output from Keboola Connection - NLP aplication
 
 Final evaluation od output you can find on Tableau public:
